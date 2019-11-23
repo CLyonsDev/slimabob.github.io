@@ -1,0 +1,41 @@
+.card-flags {
+  position: absolute;
+  top: -9px;
+  left: 15px;
+}
+.card-flag {
+  width: 30px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+.fort-flag {
+  margin-top: 25px;
+  width: 70px;
+}
+.fort-flag img {
+  max-width: 100%;
+}
+.experience-flag,
+.ancestry-flag,
+.type-flag {
+  width: 30px;
+}
+.experience-flag {
+  position: absolute;
+  top: 74px;
+  left: 0;
+}
+.type-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  margin-top: -10px;
+}
+.card-flag svg {
+  width: 100%;
+  height: auto;
+}
